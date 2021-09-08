@@ -1,0 +1,19 @@
+name: modular
+
+packages:
+  - apps/**
+  - shared/**
+scripts:
+  formatting:check: melos exec -- dart format --set-exit-if-changed .
+
+  analyze: melos exec -- dart analyze --fatal-infos
+
+  run:buyer:
+    run: melos exec -- flutter run lib/main.dart
+    select-package:
+      scope: 'buyer_app'
+
+  run:seller:
+      run: melos exec -- flutter run lib/main.dart
+      select-package:
+        scope: 'seller_app'

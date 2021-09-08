@@ -1,0 +1,8 @@
+*.gem
+*.rbc
+/.config
+/.idea
+**/.idea
+/coverage/
+/.fvm/
+.DS_Store
