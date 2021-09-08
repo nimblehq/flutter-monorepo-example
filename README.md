@@ -30,6 +30,10 @@ To run style check on all repositories:
 To run analyze on all the repo:
  `$ melos run analyze`
 
+The 2 applications (`buyer` and `seller`) shared the same SharedWidget from :shared 
+
+<img src="resources/screenshot.png" >
+
 
 ## License
 
