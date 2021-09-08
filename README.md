@@ -21,7 +21,11 @@ then you can start bootstrap with:
 
 Run the `buyer_app` or `seller_app`:
 
- `$ melos run buyer`
+ `$ melos run run:buyer`
+
+ or 
+
+ `$ melos run run:buyer` 
 
 To run style check on all repositories:
 
