@@ -1,4 +1,4 @@
-# apps.buyer_app
+# Buyer app
 
 A new Flutter project.
 
