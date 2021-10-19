@@ -3,6 +3,7 @@ name: modular
 packages:
   - apps/**
   - shared/**
+  - core/**
 scripts:
   formatting:check: melos exec -- dart format --set-exit-if-changed .
 

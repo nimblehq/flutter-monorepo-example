@@ -1,0 +1,6 @@
+framework module flutter_config {
+  umbrella header "flutter_config-umbrella.h"
+
+  export *
+  module * { export * }
+}
