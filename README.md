@@ -25,7 +25,7 @@ Run the `buyer_app` or `seller_app`:
 
  or 
 
- `$ melos run run:buyer` 
+ `$ melos run run:seller` 
 
 To run style check on all repositories:
 
